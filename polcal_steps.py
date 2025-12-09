@@ -190,7 +190,7 @@ def PA(f,a,b,c,d,e,g):
 
 #3C138 is flaring, so need values then apply scaling factor
 if '{cal_polangle}':
-	if '{cal_polangle}' == '3C138' or '{cal_polangle}' == 'J0521+1638':
+	if '{cal_polangle}' == '3C138' or '{cal_polangle}' == 'J0521+1638' or '{cal_polangle}' == '0521+166=3C138':
 		data=np.loadtxt('3c138_2019.txt')
 		if '{band}' == 'C':
 			#scaling=[1.030489,1.030489,1.11295196043943,1.11295196043943,1.11295196043943] 
